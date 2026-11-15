@@ -1,0 +1,10 @@
+{
+  "name": "unfold-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 devserver.py",
+    "dev": "python3 devserver.py"
+  }
+}
